@@ -116,7 +116,7 @@
 
 
  .header2 a.active {
-    background-color: dodgerblue;
+    background-color: #414F6A;
     color: white;
 }
 
@@ -273,7 +273,7 @@
   }
   .footermain {
     width: 100%;
-    background-color: rgba(45, 42, 209, 0.8);
+    background-color:#414F6A;
   }
   .main3 .card {
     height: 270px;
@@ -281,7 +281,7 @@
     position: absolute;
     top: 20%;
     left: 20%;
-    background-color: rgb(218, 218, 218, 0.5);
+    background-color: #414f6a;
     border-radius: 5px;
     color: rgb(5, 5, 5, 0.5);
     text-align: center;
@@ -565,10 +565,11 @@ body {
   left: 20%;
   display: flex;
   justify-content: space-between;
+  background-color: #414F6A;
 }
 .footermain {
   width: 100%;
-  background-color: rgba(45, 42, 209, 0.8);
+  background-color: #414F6A;
 }
 .main3 .card {
   height: 270px;
@@ -593,4 +594,16 @@ body {
 
 
 /* Contents Display according to screen size */
-@media (max-width:767px){#content-desktop{display:none}#content-mobile{display:block}}@media (min-width:768px){#content-desktop{display:block}#content-mobile{display:none}}
+@media (max-width:767px)
+{#content-desktop{display:none}
+#content-mobile{display:block}}
+@media (min-width:768px)
+{#content-desktop
+  {
+    display:block
+  }
+  #content-mobile
+  {
+    display:none
+  }
+}
