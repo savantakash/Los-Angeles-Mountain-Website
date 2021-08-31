@@ -424,17 +424,20 @@
         color: rgb(22, 22, 22, 0.3);
     }
     .dot {
-        margin-right: 50px;
-        height: 25px;
-        width: 25px;
+        height: 10px;
+        width: 10px;
         background-color: #bbb;
         border-radius: 50%;
         display: inline-block;
         justify-content: center;
     }
+    .dots {
+        margin: 0 auto;
+        width: fit-content;
+    }
     .heading21 {
         font-size: 37px;
-        margin-top: 41%;
+        margin-top: 31%;
         margin-left: 23%;
         color: rgb(22, 22, 22, 0.3);
     }
