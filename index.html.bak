@@ -58,8 +58,8 @@
           <div class="container" id="content-desktop">
             <div class="row">
               <div class="col-2"></div>
-              <div class="col-1">
-                <div class="number1">01.</div>
+              <div>
+                <div class="number1" style="width:30%">01.</div>
               </div>
               <div class="col-5">
                 <div class="heading1">HISTORY</div>
@@ -81,7 +81,7 @@
                 <div class="number1">01.</div>
               </div>
               <div class="col-9">
-                <div class="heading1">HISTORY</div>
+                <div class="heading1" style="padding: right 5px;">HISTORY</div>
               </div>
             </div>
             <br>
