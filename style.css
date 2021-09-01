@@ -393,7 +393,7 @@
     }
     .blackbg {
         position: absolute;
-        background-color: rgb(8, 8, 8, 0.6);
+        background-color: #39455D;
         height: 30vh;
         width: 100%;
         bottom: 0px;
