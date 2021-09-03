@@ -174,7 +174,7 @@
         margin-right: auto;
         list-style: none;
         display: flex;
-      /*  width: 3%;*/
+        width: 3%;
         margin: 0 auto;
         justify-content: center;
     }
